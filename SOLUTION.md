@@ -16,6 +16,7 @@ typedef struct {
     bool matrix[4][4];
     color color;
 } block;
+```
 
 Die grundsätzliche Spielesteuerung ist ja schon implementiert mit einem case-statement. Beim Ereignis key_up ist die Logik zum Rotieren eines Tetriminos noch zu implementieren. In meiner Recherche, fand ich heraus, dass dies durch das Transponieren und Spiegeln der Matrix möglich ist. 
 
