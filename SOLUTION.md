@@ -24,7 +24,7 @@ Die Kollisionsbehandlung ist auch anzupassen. Beispielweise beim Rotieren müsse
 
 Um die Spielgeschwindigkeit anzupassen, werde ich mitzählen wie viel Blöcke bereits erstellt wurden. Dann bei zB. jedem 10. Block eine Funktion aus timer.c aufrufen, die die Geschwindigkeit erhöht.
 
-Auch die Darstellung (Rendering) muss angepasst werden. Dabei iteriere ich über die Matrix und berechne für jeden Eintrag die Position, ausgehend von der 'Anker'-Position. 
+Auch die Darstellung (Rendering) muss angepasst werden. Dabei iteriere ich über die Matrix und berechne für jeden Eintrag die Position, ausgehend von der 'Anker'-Position.  
 
 ### **Testfälle**
 
