@@ -6,11 +6,10 @@
 
 Eine grundlegende Entscheidung ist wohl, wie man die Tetrimino speichert. Ich habe mich dafür entschieden nur eine 'Anker'-Position zu speichern und eine 4x4 Matrix mit true oder false Werten repräsentieren dann die 7 verschiedenen Typen.
 
-`typedef struct {`
-
-`    int x, y;`
-
-`} position;`
+```c
+typedef struct {
+    int x, y;
+} position;
 
 typedef struct {
     position pos;
